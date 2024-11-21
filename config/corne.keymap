@@ -71,9 +71,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB           &kp EXCL      &kp AT          &kp HASH    &kp DLLR   &kp PRCNT    &kp CARET  &kp AMPS              &kp ASTRK              &kp LPAR          &kp RPAR           &kp BSPC
-&mt LCTRL ESCAPE  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp DELETE  &kp MINUS  &kp EQUAL    &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GRAVE
-&kp LSHFT         &trans        &trans          &trans      &trans     &kp DEL      &kp TILDE  &kp MINUS             &kp EQUAL              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp LG(TAB)       &kp EXCL      &kp AT          &kp HASH    &kp DLLR   &kp PRCNT    &kp CARET  &kp AMPS              &kp ASTRK              &kp LPAR          &kp RPAR           &kp BSPC
+&mt LCTRL ESCAPE  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp DELETE  &kp MINUS  &kp EQUAL    &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GRAVE
+&kp LSHFT         &trans        &trans          &trans      &trans     &trans       &kp MINUS  &kp PIPE              &kp TILDE              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
                                                 &kp LGUI    &trans     &kp RET      &kp SPACE  &trans                &kp RALT
             >;
         };
