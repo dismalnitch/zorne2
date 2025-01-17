@@ -66,10 +66,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5          &kp NUMBER_6           &kp N7        &kp N8     &kp N9      &kp N0      &kp BSPC
-&bt BT_CLR  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0          &kp LEFT               &kp DOWN      &kp UP     &kp RIGHT   &kp PIPE    &kp DELETE
-&kp LSHFT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &kp UNDERSCORE         &kp C_VOL_DN  &kp COMMA  &kp PERIOD  &kp C_NEXT  &kp C_NEXT
-                                        &kp LGUI      &trans        &mt LEFT_SHIFT RET    &mt RIGHT_SHIFT SPACE  &trans        &kp RALT
+&kp LG(TAB)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5          &kp NUMBER_6           &kp N7     &kp N8     &kp N9      &kp N0      &kp BSPC
+&bt BT_CLR   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0          &kp LEFT               &kp DOWN   &kp UP     &kp RIGHT   &kp PIPE    &kp DELETE
+&kp LSHFT    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &kp GRAVE              &kp UNDER  &kp COMMA  &kp PERIOD  &kp C_NEXT  &kp C_NEXT
+                                         &kp LGUI      &trans        &mt LEFT_SHIFT RET    &mt RIGHT_SHIFT SPACE  &trans     &kp RALT
             >;
         };
 
@@ -81,10 +81,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LG(TAB)       &kp EXCLAMATION       &kp AT_SIGN            &kp HASH       &kp DOLLAR  &kp PERCENT           &kp CARET              &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&mt LCTRL ESCAPE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE      &kp CARET   &kp UNDER             &kp EQUAL              &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DELETE
-&kp LSHFT         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp PIPE    &kp GRAVE             &kp MINUS              &kp PLUS        &kp TILDE        &kp UNDERSCORE        &kp PIPE               &kp BACKSLASH
-                                                               &kp LGUI       &trans      &mt LEFT_SHIFT RET    &mt RIGHT_SHIFT SPACE  &trans          &kp RALT
+&kp LG(TAB)       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp DOLLAR  &kp PERCENT           &kp CARET              &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&mt LCTRL ESCAPE  &kp GRAVE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET   &kp UNDER             &kp EQUAL              &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DELETE
+&kp LSHFT         &kp BACKSLASH    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE    &kp PLUS              &kp MINUS              &kp PLUS        &kp TILDE        &kp UNDERSCORE        &kp PIPE               &kp BACKSLASH
+                                                         &kp LGUI               &trans      &mt LEFT_SHIFT RET    &mt RIGHT_SHIFT SPACE  &trans          &kp RALT
             >;
         };
 
