@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp EXCL      &kp AT        &kp POUND     &kp DOLLAR    &kp PERCENT    &kp CARET      &kp AMPS        &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&bt BT_CLR  &trans        &trans        &trans        &trans        &trans         &kp TILDE      &kp MINUS       &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
-&kp LSHFT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans         &kp GRAVE      &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
-                                        &kp LGUI      &trans        &kp ENTER      &kp LG(SPACE)  &trans          &kp RALT
+&kp TAB    &kp EXCL  &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp AMPS        &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&kp ESC    &kp N1    &kp N2  &kp N3     &kp N4      &kp N5         &kp TILDE      &kp MINUS       &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+&kp LSHFT  &kp N6    &kp N7  &kp N8     &kp N9      &kp N0         &kp GRAVE      &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
+                             &kp LGUI   &trans      &kp ENTER      &kp LG(SPACE)  &lt 3 ESCAPE    &kp RALT
             >;
         };
 
@@ -51,18 +51,18 @@
 
             bindings = <
 &kp TAB        &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT      &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&mt LCTRL ESC  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5           &kp LEFT   &kp UP_ARROW   &kp DOWN       &kp RIGHT             &kp SEMICOLON          &kp PIPE
+&mt LCTRL ESC  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5           &kp LEFT   &kp DOWN       &kp UP_ARROW   &kp RIGHT             &kp SEMICOLON          &kp PIPE
 &kp LSHFT      &kp NUMBER_6     &kp N7        &kp N8        &kp N9        &kp N0           &trans     &trans         &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &kp BACKSLASH
-                                              &kp LGUI      &trans        &kp RG(ENTER)    &kp SPACE  &lt 3 TAB      &kp RALT
+                                              &kp LGUI      &lt 3 TAB     &kp RG(ENTER)    &kp SPACE  &kp RIGHT_GUI  &kp RALT
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans      &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_PRV  &trans  &trans  &bt BT_NXT  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans      &trans  &trans
+                                        &trans        &trans        &trans          &trans      &trans  &trans
             >;
         };
     };
