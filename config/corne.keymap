@@ -36,8 +36,8 @@
 
             bindings = <
 &kp TAB    &kp EXCL  &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp AMPS        &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&kp ESC    &kp N1    &kp N2  &kp N3     &kp N4      &kp N5         &kp TILDE      &kp MINUS       &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
-&kp LSHFT  &kp N6    &kp N7  &kp N8     &kp N9      &kp N0         &kp GRAVE      &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
+&kp ESC    &kp N1    &kp N2  &kp N3     &kp N4      &kp N5         &kp TILDE      &kp MINUS       &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &mt RIGHT_CONTROL PIPE
+&kp LSHFT  &kp N6    &kp N7  &kp N8     &kp N9      &kp N0         &kp LC(B)      &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
                              &kp LGUI   &trans      &kp ENTER      &kp LG(SPACE)  &lt 3 ESCAPE    &kp RALT
             >;
         };
